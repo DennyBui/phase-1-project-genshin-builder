@@ -1,0 +1,39 @@
+{
+    "characters": [
+    {
+        "id": 1,
+        "name": "Albedo",
+        "element": "Geo",
+        "rarity": "5 star"
+
+    },
+    {
+        "id": 2,
+        "name": "Alhaitham",
+        "element": "Dendro",
+        "rarity": "5 star"
+
+    },
+    {
+        "id": 3,
+        "name": "Aloy",
+        "element": "Cyro",
+        "rarity": "5 star"
+
+    },
+    {
+        "id": 4,
+        "name": "Amber",
+        "element": "Pyro",
+        "rarity": "4 star"
+
+    },
+    {
+        "id": 5,
+        "name": "Ayaka",
+        "element": "Cryo",
+        "rarity": "5 star"
+
+    }
+]
+}

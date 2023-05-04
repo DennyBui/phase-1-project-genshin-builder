@@ -1,3 +1,14 @@
 body {
    background-color: aliceblue; 
 }
+#genshin-header {
+   display: flex;
+   justify-content: center;
+   height: 7rem;
+   padding: 1rem;
+}
+#genshin-header img {
+   height: 6rem;
+   width: auto;
+   padding: auto;
+}

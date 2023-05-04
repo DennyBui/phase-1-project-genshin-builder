@@ -10,5 +10,5 @@ fetch("http://localhost:3000/characters")
         //append elements to list item
         //append list item to container
         //add images to db.json
-    })
+    createCardElement(character)})
 })

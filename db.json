@@ -4,36 +4,74 @@
         "id": 1,
         "name": "Albedo",
         "element": "Geo",
-        "rarity": "5 star"
+        "rarity": "5 star",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Albedo_Icon.png/revision/latest?cb=20210213163457"
 
     },
     {
         "id": 2,
         "name": "Alhaitham",
         "element": "Dendro",
-        "rarity": "5 star"
+        "rarity": "5 star",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2c/Alhaitham_Icon.png/revision/latest/scale-to-width-down/185?cb=20230118023048"
 
     },
     {
         "id": 3,
         "name": "Aloy",
         "element": "Cyro",
-        "rarity": "5 star"
+        "rarity": "5 star",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Aloy_Icon.png/revision/latest?cb=20220210041444"
 
     },
     {
         "id": 4,
         "name": "Amber",
         "element": "Pyro",
-        "rarity": "4 star"
+        "rarity": "4 star",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/75/Amber_Icon.png/revision/latest?cb=20210213161233"
 
     },
     {
         "id": 5,
         "name": "Ayaka",
         "element": "Cryo",
-        "rarity": "5 star"
+        "rarity": "5 star",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Kamisato_Ayaka_Icon.png/revision/latest?cb=20211221231648"
+
+    },
+    {
+        "id": 6,
+        "name": "Hu Tao",
+        "element": "Pyro",
+        "rarity": "5 star",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Hu_Tao_Icon.png/revision/latest?cb=20210228210611"
+
+    },
+    {
+        "id": 7,
+        "name": "Raiden Shogun",
+        "element": "Electro",
+        "rarity": "5 star",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Raiden_Shogun_Icon.png/revision/latest?cb=20220316020439"
+
+    },
+    {
+        "id": 7,
+        "name": "Raiden Shogun",
+        "element": "Electro",
+        "rarity": "5 star",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Raiden_Shogun_Icon.png/revision/latest?cb=20220316020439"
+
+    },
+    {
+        "id": 8,
+        "name": "Kaveh",
+        "element": "Dendro",
+        "rarity": "4 star",
+        "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/genshin-impact/f/fe/UI_AvatarIcon_Kaveh.png?width=325"
 
     }
+    
 ]
 }

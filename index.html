@@ -13,7 +13,38 @@
     <div id = "genshin-header">
     <img src ="https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Genshin_Impact_logo.svg/2560px-Genshin_Impact_logo.svg.png" alt="genshin-header"/>
     </div>
+    <br>
+    <div class ="container">
     <h2>Genshin Database</h2>
+    <form class="add-toy-form">
+        <h3>Build a character!</h3>
+
+        <input
+          type="text"
+          name="name"
+          value=""
+          placeholder="Enter a character's name..."
+          class="input-text"
+        />
+        <br />
+        <input
+          type="text"
+          name="image"
+          value=""
+          placeholder="Enter a character's image URL..."
+          class="input-text"
+        />
+        <br />
+        <input
+          type="submit"
+          name="submit"
+          value="Build Character"
+          class="submit"
+        />
+      </form>
+      <p style="text-align:center">
+        What character do you want to build? <button id="new-character-btn">Build!</button>
+      </p>
     <ul>
         <li>
             <h3>Albedo</h3>
@@ -48,18 +79,6 @@
             <div>ID: 8</div>
         </li>
     </ul>
-    <section>
-        <form>
-          <label for="searchByID">Search By ID</label>
-          <input id="searchByID" type="text" placeholder="Enter ID here"/>
-          <input type="submit" />
-        </form>
-      </section>
-      <section id="genshinDetails">
-        <h4>Name</h4>
-        <p>Description</p>
-      </section>
-
-    </div>
+</div>
 </body>
 </html>

@@ -10,54 +10,14 @@
     
 </head>
 <body>
-    <div id = "genshin-header">
-    <img src ="https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Genshin_Impact_logo.svg/2560px-Genshin_Impact_logo.svg.png" alt="genshin-header"/>
+    <div class ="search-bar">
+        <label for="character-search">Search for a character:</label>
+        <input type="text" id="character-search">
+        <!--Search bar for filtering characters-->
     </div>
-    <br>
-    <div class ="container">
-    <h2>Genshin Database</h2>
-    <section>
-        <form>
-          <label for="searchByID">Search By ID</label>
-          <input id="searchByID" type="text" placeholder="Enter ID here"/>
-          <input type="submit" />
-        </form>
-      </section>
-      <section id="genshinDetails">
-        <h4>Name</h4>
-        <p>Description</p>
-      </section>
-    
-    <ul>
-        <li>
-            <h3>Albedo</h3>
-            <div>ID: 1</div>
-        </li>
-        <li>
-            <h3>Alhaithem</h3>
-            <div>ID: 2</div>
-        </li>
-        <li>
-            <h3>Aloy</h3>
-            <div>ID: 3</div>
-        </li>
-        <li>
-            <h3>Amber</h3>
-            <div>ID: 4</div>
-        </li>
-        <li>
-            <h3>Ayaka</h3>
-            <div>ID: 5</div>
-        </li>
-        <li>
-            <h3>Hu Tao</h3>
-            <div>ID: 6</div>
-        </li>
-        <li>
-            <h3>Kaveh</h3>
-            <div>ID: 7</div>
-        </li>
-    </ul>
-</div>
+    <div id="cards-container">
+    <!--Container for character and artifact cards-->
+    </div>
+
 </body>
 </html>

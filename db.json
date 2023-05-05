@@ -6,11 +6,11 @@
         "element": "Geo",
         "rarity": "5 star",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Albedo_Icon.png/revision/latest?cb=20210213163457",
-        "recommended_artifacts": [
+        "recommendedArtifacts": [
             {
                 "name": "Husk of Opulent Dreams",
                 "description": "2-PC: DEF +30%. 4-PC: A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions: When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s. When off the field, the character gains 1 stack every 3s. Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus. When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost.",
-                "artifact_image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Bloom_Times.png/revision/latest?cb=20211124024926"
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Bloom_Times.png/revision/latest?cb=20211124024926"
             }
         ]
 
@@ -21,11 +21,11 @@
         "element": "Dendro",
         "rarity": "5 star",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2c/Alhaitham_Icon.png/revision/latest/scale-to-width-down/185?cb=20230118023048",
-        "recommended_artifacts": [
+        "recommendedArtifacts": [
             {
                 "name": "Gilded Dreams",
                 "description": "2-PC: Elemental Mastery +80. 4-PC: Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members. ATK is increased by 14% for each member whose Elemental Type is the same as the equipping character, and EM is increased by 50 for every member with a different Elemental Type. Each of the buffs will count up to 3 characters. This effect can be triggered once every 8s and even when not on the field.",
-                "artifact_image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Item_Dreaming_Steelbloom.png/revision/latest?cb=20220826125336"
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Item_Dreaming_Steelbloom.png/revision/latest?cb=20220826125336"
             }
         ]
 
@@ -36,11 +36,11 @@
         "element": "Cyro",
         "rarity": "5 star",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Aloy_Icon.png/revision/latest?cb=20220210041444",
-        "recommended_artifacts": [
+        "recommendedArtifacts": [
             {
                 "name": "Emblem of Severed Fate",
                 "description": "2-PC: Energy Recharge +20%. 4-PC: Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way.",
-                "artifact_image": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Item_Magnificent_Tsuba.png/revision/latest?cb=20210721030125"
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Item_Magnificent_Tsuba.png/revision/latest?cb=20210721030125"
             }
         ]
 
@@ -51,11 +51,11 @@
         "element": "Pyro",
         "rarity": "4 star",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/75/Amber_Icon.png/revision/latest?cb=20210213161233",
-        "recommended_artifacts": [
+        "recommendedArtifacts": [
             {
                 "name": "Noblesse Oblige",
                 "description": "2-PC: Elemental Burst DMG +20%. 4-PC: Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack.",
-                "artifact_image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Royal_Flora.png/revision/latest?cb=20201120063610"
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Royal_Flora.png/revision/latest?cb=20201120063610"
             }
         ]
 
@@ -66,11 +66,11 @@
         "element": "Cryo",
         "rarity": "5 star",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Kamisato_Ayaka_Icon.png/revision/latest?cb=20211221231648",
-        "recommended_artifacts": [
+        "recommendedArtifacts": [
             {
                 "name": "Blizzard Strayer",
                 "description": "2-PC: Cyro DMG Bonus +15%. 4-PC: When a character attacks an enemy affected by Cryo, their CRIT Rate is increased by 20%. If the enemy is Frozen, CRIT Rate is increased by an additional 20%.",
-                "artifact_image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Snowswept_Memory.png/revision/latest?cb=20201225230245"
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Snowswept_Memory.png/revision/latest?cb=20201225230245"
             }
         ]
 
@@ -81,11 +81,11 @@
         "element": "Pyro",
         "rarity": "5 star",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Hu_Tao_Icon.png/revision/latest?cb=20210228210611",
-        "recommended_artifacts": [
+        "recommendedArtifacts": [
             {
                 "name": "Crimson Witch of Flames",
                 "description": "2-PC: Pyro DMG Bonus +15%. 4-PC: Increases Overloaded, Burning, and Burgeon DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using an Elemental Skill increases 2-Piece Set effects by 50% for 10s. Max 3 stacks.",
-                "artifact_image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Witch%27s_Flower_of_Blaze.png/revision/latest?cb=20201120065356"
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Witch%27s_Flower_of_Blaze.png/revision/latest?cb=20201120065356"
             }
         ]
 
@@ -96,11 +96,11 @@
         "element": "Dendro",
         "rarity": "4 star",
         "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/genshin-impact/f/fe/UI_AvatarIcon_Kaveh.png?width=325",
-        "recommended_artifacts": [
+        "recommendedArtifacts": [
             {
                 "name": "Flower of Paradise Lost",
                 "description": "2-PC: Elemental Mastery +80. 4-PC: The equipping character's Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%. Additionally, after the equipping character triggers Bloom, Hyperbloom, or Burgeon, they will gain another 25% bonus to the effect mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field.",
-                "artifact_image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Ay-Khanoum%27s_Myriad.png/revision/latest?cb=20221207030350"
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Ay-Khanoum%27s_Myriad.png/revision/latest?cb=20221207030350"
             }
         ]
 

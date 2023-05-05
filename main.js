@@ -1,7 +1,7 @@
 fetch("http://localhost:3000/characters")
 .then(resp => resp.json())
 .then(characters => {
-    const container = document.querySelector('ul#genshinCharacter')
+    const container = document.querySelector("genshin-header")
     characters.forEach(character => {
         //name, element, rarity
         //create an element to hold the name. maybe h2 or h3

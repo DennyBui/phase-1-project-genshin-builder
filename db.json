@@ -57,15 +57,7 @@
 
     },
     {
-        "id": 7,
-        "name": "Raiden Shogun",
-        "element": "Electro",
-        "rarity": "5 star",
-        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Raiden_Shogun_Icon.png/revision/latest?cb=20220316020439"
-
-    },
-    {
-        "id": 8,
+        "id": 9,
         "name": "Kaveh",
         "element": "Dendro",
         "rarity": "4 star",

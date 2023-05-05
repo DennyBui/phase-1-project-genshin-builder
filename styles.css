@@ -15,28 +15,19 @@ body, css {
    background-color: aliceblue;
    text-align: center;
  }
- .submit {
-  position: relative;
-  background-color: #e04b52;
-  border-radius: 5px;
-  height: 2rem;
-  width: max-content;
-  color: whitesmoke;
-  font-size: 18px;
-  justify-self: center;
-  font-family: monospace;
-  margin: 3px;
+ body * {
+  margin: 1em;
+  padding: 0;
+  list-style: none;
 }
 
-.submit:hover {
-  background-color: whitesmoke;
-  border: #e04b52 solid 1px;
-  color: #e04b52;
+section {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
 }
-ul {
-  text-align: auto;
-}
-li {
-  text-align: auto;
+
+#genshinDetails {
+  display: block;
 }
 

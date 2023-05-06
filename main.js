@@ -26,6 +26,10 @@ function createCardElement(character) {
       artifactDesc.textContent = artifact.description
       artifactDesc.classList.add('recommended-artifact-description')
       card.appendChild(artifactDesc)
+      let artifactDescription = document.createElement('p')
+      artifactDescription.textContent = artifact.fourPC
+      artifactDesc.classList.add('recommended-artifact-description-four')
+      card.appendChild(artifactDescription)
     })  
   })
   button.classList.add('build-character')

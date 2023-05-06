@@ -18,6 +18,10 @@ function createCardElement(character) {
       artifactImg.alt = artifact.name
       artifactImg.classList.add('recommended-artifact-image')
       card.appendChild(artifactImg)
+      let artifactName = document.createElement("h3")
+      artifactName.textContent = artifact.name
+      artifactName.classList.add('artifact-name')
+      card.appendChild(artifactName)
       let artifactDesc = document.createElement('p')
       artifactDesc.textContent = artifact.description
       artifactDesc.classList.add('recommended-artifact-description')

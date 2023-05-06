@@ -27,9 +27,8 @@ body {
   padding: 10px;
   margin: 10px;
   width: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: auto;
+  display: inline-block;
+  vertical-align: top;
 }
 .card h2 {
   margin-top: 0;

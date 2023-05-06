@@ -111,6 +111,54 @@
             }
         ]
 
+    },
+    {
+        "id": 8,
+        "name": "Fischl",
+        "element": "Electro",
+        "rarity": "4 star",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Fischl_Icon.png/revision/latest/scale-to-width-down/250?cb=20220627171007",
+        "recommendedArtifacts": [
+            {
+                "name": "Thundering Fury",
+                "description": "2-PC: Electro DMG Bonus +15%", 
+                "fourPC": "4-PC: Increases damage caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, and the DMG Bonus conferred by Aggravate is increased by 20%. When Quicked or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s.",
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Item_Thunderbird%27s_Mercy.png/revision/latest?cb=20201120064634"
+            }
+        ]
+
+    },
+    {
+        "id": 9,
+        "name": "Layla",
+        "element": "Cryo",
+        "rarity": "4 star",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Layla_Icon.png/revision/latest?cb=20221118140544",
+        "recommendedArtifacts": [
+            {
+                "name": "Tenacity of the Millelith",
+                "description": "2-PC: HP +20%", 
+                "fourPC": "4-PC: When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field.",
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Flower_of_Accolades.png/revision/latest?cb=20210416205617"
+            }
+        ]
+
+    },
+    {
+        "id": 10,
+        "name": "Sucrose",
+        "element": "Anemo",
+        "rarity": "4 star",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Sucrose_Icon.png/revision/latest/scale-to-width-down/250?cb=20210213163209",
+        "recommendedArtifacts": [
+            {
+                "name": "Viridescent Venerer",
+                "description": "2-PC: Anemo DMG Bonus +15%", 
+                "fourPC": "4-PC: Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s.",
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Item_In_Remembrance_of_Viridescent_Fields.png/revision/latest?cb=20201120064508"
+            }
+        ]
+
     }
     
 ]

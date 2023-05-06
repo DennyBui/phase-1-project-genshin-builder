@@ -10,29 +10,26 @@
     
 </head>
 <body>
-    <div id = "genshin-header">
-    <img src ="https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Genshin_Impact_logo.svg/2560px-Genshin_Impact_logo.svg.png" alt="genshin-header"/>
+    <div id="genshin-header">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Genshin_Impact_logo.svg/2560px-Genshin_Impact_logo.svg.png" alt="Genshin Impact logo">
     </div>
     <br>
-    <div class ="container">
-
+    <div class="container">
         <section>
             <form>
               <label for="searchByName">Search By Name</label>
 
-              <input id="searchByName" type="text" placeholder="Enter name here"/>
-              <input type="submit" />
+              <input id="searchByName" type="text" placeholder="Enter name here" aria-label="Enter character name to search">
+              <input type="submit" aria-label="Search for character">
             </form>
-          </section>
-          <section id="characterDetails">
-                <h2>Name</h2>
-                <p>Artifacts</p>
-              </section>
-    <div id="cards-container">
-    <!--Container for character and artifact cards-->
-    
+        </section>
+        <section id="characterDetails">
+            <h1 id="enterName">Name</h1>
+            <p id="enterDetails">Details</p>
+        </section>
+        <div id="cards-container">
+            <!--Container for character and artifact cards-->
+        </div>
     </div>
-     
-</div>
 </body>
 </html>

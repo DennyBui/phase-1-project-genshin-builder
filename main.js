@@ -4,7 +4,7 @@ function createCardElement(character) {
   let h2 = document.createElement('h2')
   h2.textContent = character.name
   let p = document.createElement('p')
-  p.textContent = "Artifact"
+  p.textContent = `Rarity: ${character.rarity}`
   let img = document.createElement('img')
   img.src = character.image
   img.classList.add("character-portrait")

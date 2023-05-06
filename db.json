@@ -4,7 +4,7 @@
         "id": 1,
         "name": "Albedo",
         "element": "Geo",
-        "rarity": "5 star",
+        "rarity": "★★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Albedo_Icon.png/revision/latest?cb=20210213163457",
         "recommendedArtifacts": [
             {
@@ -20,7 +20,7 @@
         "id": 2,
         "name": "Alhaitham",
         "element": "Dendro",
-        "rarity": "5 star",
+        "rarity": "★★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2c/Alhaitham_Icon.png/revision/latest/scale-to-width-down/185?cb=20230118023048",
         "recommendedArtifacts": [
             {
@@ -36,7 +36,7 @@
         "id": 3,
         "name": "Aloy",
         "element": "Cyro",
-        "rarity": "5 star",
+        "rarity": "★★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Aloy_Icon.png/revision/latest?cb=20220210041444",
         "recommendedArtifacts": [
             {
@@ -52,7 +52,7 @@
         "id": 4,
         "name": "Amber",
         "element": "Pyro",
-        "rarity": "4 star",
+        "rarity": "★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/75/Amber_Icon.png/revision/latest?cb=20210213161233",
         "recommendedArtifacts": [
             {
@@ -68,7 +68,7 @@
         "id": 5,
         "name": "Ayaka",
         "element": "Cryo",
-        "rarity": "5 star",
+        "rarity": "★★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Kamisato_Ayaka_Icon.png/revision/latest?cb=20211221231648",
         "recommendedArtifacts": [
             {
@@ -84,7 +84,7 @@
         "id": 6,
         "name": "Hu Tao",
         "element": "Pyro",
-        "rarity": "5 star",
+        "rarity": "★★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Hu_Tao_Icon.png/revision/latest?cb=20210228210611",
         "recommendedArtifacts": [
             {
@@ -100,7 +100,7 @@
         "id": 7,
         "name": "Kaveh",
         "element": "Dendro",
-        "rarity": "4 star",
+        "rarity": "★★★★",
         "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/genshin-impact/f/fe/UI_AvatarIcon_Kaveh.png?width=325",
         "recommendedArtifacts": [
             {
@@ -116,7 +116,7 @@
         "id": 8,
         "name": "Fischl",
         "element": "Electro",
-        "rarity": "4 star",
+        "rarity": "★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Fischl_Icon.png/revision/latest/scale-to-width-down/250?cb=20220627171007",
         "recommendedArtifacts": [
             {
@@ -132,7 +132,7 @@
         "id": 9,
         "name": "Layla",
         "element": "Cryo",
-        "rarity": "4 star",
+        "rarity": "★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Layla_Icon.png/revision/latest?cb=20221118140544",
         "recommendedArtifacts": [
             {
@@ -148,7 +148,7 @@
         "id": 10,
         "name": "Sucrose",
         "element": "Anemo",
-        "rarity": "4 star",
+        "rarity": "★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Sucrose_Icon.png/revision/latest/scale-to-width-down/250?cb=20210213163209",
         "recommendedArtifacts": [
             {
@@ -156,6 +156,38 @@
                 "description": "2-PC: Anemo DMG Bonus +15%", 
                 "fourPC": "4-PC: Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s.",
                 "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Item_In_Remembrance_of_Viridescent_Fields.png/revision/latest?cb=20201120064508"
+            }
+        ]
+
+    },
+    {
+        "id": 11,
+        "name": "Ayato",
+        "element": "Hydro",
+        "rarity": "★★★★★",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Kamisato_Ayato_Icon.png/revision/latest/scale-to-width-down/250?cb=20220601033710",
+        "recommendedArtifacts": [
+            {
+                "name": "Echoes of an Offering",
+                "description": "2-PC: ATK +18%", 
+                "fourPC": "4-PC: When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK. This effect will be dispelled 0.05s after a Normal Attack deals DMG. If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%. This trigger can occur once every 0.2s.",
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Item_Soulscent_Bloom.png/revision/latest?cb=20220330042626"
+            }
+        ]
+
+    },
+    {
+        "id": 12,
+        "name": "Tartaglia",
+        "element": "Hydro",
+        "rarity": "★★★★★",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Tartaglia_Icon.png/revision/latest/scale-to-width-down/250?cb=20210213163935",
+        "recommendedArtifacts": [
+            {
+                "name": "Heart of Depth",
+                "description": "2-PC: Hydro DMG Bonus +15%", 
+                "fourPC": "4-PC: After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s.",
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Item_Gilded_Corsage.png/revision/latest?cb=20201225230417"
             }
         ]
 

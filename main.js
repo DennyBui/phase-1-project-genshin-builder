@@ -26,10 +26,10 @@ function createCardElement(character) {
       artifactDesc.textContent = artifact.description
       artifactDesc.classList.add('recommended-artifact-description')
       card.appendChild(artifactDesc)
-      let artifactDescription = document.createElement('p')
-      artifactDescription.textContent = artifact.fourPC
-      artifactDesc.classList.add('recommended-artifact-description-four')
-      card.appendChild(artifactDescription)
+      let artifactFour = document.createElement('p')
+      artifactFour.textContent = artifact.fourPC
+      artifactFour.classList.add('recommended-artifact-four')
+      card.appendChild(artifactFour)
     })  
   })
   button.classList.add('build-character')
@@ -38,8 +38,26 @@ function createCardElement(character) {
   document.getElementById('cards-container').appendChild(card)
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  fetch('http://localhost:3000/characters')
+fetch('http://localhost:3000/characters')
   .then(res => res.json())
-  .then(characters => characters.forEach(character => createCardElement(character)));
-})
+  .then(characters => {
+    characters.forEach(character => createCardElement(character));
+    search();
+  });
+
+const search = () => {
+  const searchForm = document.querySelector('form');
+  searchForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const input = document.querySelector('input#searchByName');
+    fetch(`http://localhost:3000/characters`)
+      .then (res => res.json())
+      .then((character) => {
+            const title = document.querySelector("section#characterDetails h2");
+            const summary = document.querySelector("section#characterDetails p");
+            title.innerText = character.name;
+            summary.innerText = character.recommendedArtifacts;
+      })
+  })
+}
+document.addEventListener('DOMContentLoaded', search)

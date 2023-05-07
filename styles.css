@@ -92,3 +92,6 @@ p {
   text-align: center;
   font-style: oblique;
 }
+.artifact-name {
+  text-align: center;
+}

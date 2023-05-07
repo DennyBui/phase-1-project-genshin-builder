@@ -1,17 +1,30 @@
-document.addEventListener('DOMContentLoaded', () => {
-  function createCardElement(character) {
-    let card = document.createElement('div');
-    card.classList.add('card');
-    let h2 = document.createElement('h2');
-    h2.textContent = character.name;
-    let p = document.createElement('p');
-    p.textContent = `Rarity: ${character.rarity}`;
-    let img = document.createElement('img');
-    img.src = character.image;
-    img.classList.add("character-portrait");
-    let button = document.createElement('button');
-    button.textContent = "Build Character";
-    button.addEventListener("click", () => {
+function createCardElement(character) {
+  let card = document.createElement('div');
+  card.classList.add('card');
+  let h2 = document.createElement('h2');
+  h2.textContent = character.name;
+  let p = document.createElement('p');
+  p.textContent = `Rarity: ${character.rarity}`;
+  let img = document.createElement('img');
+  img.src = character.image;
+  img.classList.add("character-portrait");
+  let button = document.createElement('button');
+  button.textContent = "Build Character";
+  button.id = character.id;
+  button.classList.add('build-character');
+  button.classList.add('active');
+  card.append(h2, img, p, button);
+
+  button.addEventListener("click", () => {
+    if (button.classList.contains('active')) {
+      button.classList.remove('active');
+      button.textContent = "Build Character";
+      let recommendedArtifacts = card.querySelectorAll('.recommended-artifact-image, .artifact-name, .recommended-artifact-description, .recommended-artifact-four');
+      recommendedArtifacts.forEach(element => element.remove());
+      p.textContent = `Rarity: ${character.rarity}`;
+    } else {
+      button.classList.add('active');
+      button.textContent = "Hide Artifacts";
       p.textContent = "Recommended";
       character.recommendedArtifacts.forEach(artifact => {
         let artifactImg = document.createElement("img");
@@ -31,13 +44,12 @@ document.addEventListener('DOMContentLoaded', () => {
         artifactFour.textContent = artifact.fourPC;
         artifactFour.classList.add('recommended-artifact-four');
         card.appendChild(artifactFour);
-      });  
-    });
-    button.classList.add('build-character');
-    button.id = character.id;
-    card.append(h2, img, p, button);
-    document.getElementById('cards-container').appendChild(card);
-  }
+      });
+    }
+  });
+
+  document.getElementById('cards-container').appendChild(card);
+}
 
 fetch('http://localhost:3000/characters')
     .then(res => res.json())
@@ -45,7 +57,6 @@ fetch('http://localhost:3000/characters')
       characters.forEach(character => createCardElement(character));
      
     });
-});
 const searchForm = document.getElementById("search-form");
 const searchInput = document.getElementById('search-input');
 const searchResults = document.getElementById('search-results');

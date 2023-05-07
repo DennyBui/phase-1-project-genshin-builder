@@ -43,8 +43,8 @@ body {
   background-color: aquamarine;
   max-width: 1700px;
 }
-.search-bar {
-  margin: 10px;
+#search-input {
+  margin: 20px;
   padding: 10px;
   border: 1px solid black;
   border-radius: 5px;
@@ -60,6 +60,9 @@ body {
 }
 .build-character {
   margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 .recommended-artifact-image {
   width: 150px;
@@ -85,4 +88,7 @@ header {
 header h1 {
   margin: 0;
 }
-
+p {
+  text-align: center;
+  font-style: oblique;
+}

@@ -16,20 +16,17 @@
     <br>
     <div class="container">
         <section>
-            <form>
-              <label for="searchByName">Search By Name</label>
-
-              <input id="searchByName" type="text" placeholder="Enter name here" aria-label="Enter character name to search">
-              <input type="submit" aria-label="Search for character">
-            </form>
+              <form id="search-form">
+                <label for="search-input">Search for Characters:</label>
+                <input type="text" id="search-input" name="search-input" required>
+                <button type="submit">Search</button>
+              </form>
+              <div id="search-results"></div>
         </section>
-        <section id="characterDetails">
-            <h1 id="enterName">Name</h1>
-            <p id="enterDetails">Details</p>
-        </section>
+      </div>
         <div id="cards-container">
             <!--Container for character and artifact cards-->
         </div>
-    </div>
+    
 </body>
 </html>

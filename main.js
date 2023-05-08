@@ -58,87 +58,22 @@ fetch('http://localhost:3000/characters')
       characters.forEach(character => createCardElement(character));
      
     });
-const searchForm = document.getElementById("search-form");
-const searchInput = document.getElementById('search-input');
-const searchResults = document.getElementById('search-results');
-
-searchForm.addEventListener('submit', function(event) {
-  event.preventDefault();
-  const searchTerm = searchInput.value.trim().toLowerCase();
-  searchCharacter(searchTerm);
-});
-
-function searchCharacter(name) {
-  fetch(`http://localhost:3000/characters?name=${name}`)
-    .then(res => res.json())
-    .then(characters => {
-      displayCharacters(characters);
-    })
-    .catch(error => {
-      console.error('Error fetching characters:', error);
-    });
-}
-
-function displayCharacters(characters) {
-  const cardsContainer = document.getElementById('cards-container');
-  const cards = cardsContainer.querySelectorAll('.card');
-  cards.forEach(card => {
-    const characterName = card.querySelector('h2').textContent.toLowerCase();
-    if (characters.some(character => character.name.toLowerCase() === characterName)) {
-      card.classList.remove('hidden');
-    } else {
-      card.classList.add('hidden');
+    function submitSearch() {
+      const input = document.getElementById('search-input').value;
+      const cards = document.querySelectorAll('.card');
+    
+      cards.forEach(card => {
+        const name = card.querySelector('h2').textContent;
+        if (name.toLowerCase().includes(input.toLowerCase())) {
+          card.style.display = "block";
+        } else {
+          card.style.display = "none";
+        }
+      });
     }
-  });
-}
-
-
-function getArtifacts(recommendArtifacts) {
-  fetch(`http://localhost:3000/artifacts/${recommendArtifacts}`)
-    .then(res => res.json())
-    .then(artifact => {
-      displayArtifact(artifact);
-    })
-    .catch(error => {
-      console.error('Error fetching artifacts:', error);
-    });
-}
-function displayArtifact(artifact) {
-  const parentElement = searchResults;
-  const allChildElements = parentElement.children;
-
-  // Hide all the child elements (i.e. character cards)
-  for (let i = 0; i < allChildElements.length; i++) {
-    allChildElements[i].style.display = 'none';
-  }
-
-  const artifactCard = document.createElement('div');
-  artifactCard.classList.add('card');
-  let h2 = document.createElement('h2');
-  h2.textContent = artifact.name;
-  let p = document.createElement('p');
-  p.textContent = artifact.description;
-  let img = document.createElement('img');
-  img.src = artifact.image;
-  img.classList.add("artifact-image");
-  let button = document.createElement('button');
-  button.textContent = "Build Character";
-  button.addEventListener("click", () => {
-    const characterCard = document.querySelector(`.card[id='${artifact.characterId}']`);
-    const p = characterCard.querySelector('p');
-    p.textContent = "Recommended";
-    artifact.recommendedCharacters.forEach(characterId => {
-      const recommendedCharacterButton = characterCard.querySelector(`.build-character[id='${characterId}']`);
-      recommendedCharacterButton.click();
-    });
-  });
-  button.classList.add('build-character');
-  button.id = artifact.id;
-  artifactCard.append(h2, img, p, button);
-  parentElement.appendChild(artifactCard);
-
-  // Show the artifact card
-  const artifactElement = document.getElementById(artifact.id);
-  artifactElement.style.display = 'block';
-}
+const searchForm = document.getElementById('search-form');
+searchForm.addEventListener('submit', (event) => {
+  event.preventDefault(); // prevent the default form submission behavior
+  submitSearch();
+});
 

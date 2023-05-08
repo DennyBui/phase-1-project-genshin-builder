@@ -44,6 +44,7 @@ function createCardElement(character) {
         artifactFour.textContent = artifact.fourPC;
         artifactFour.classList.add('recommended-artifact-four');
         card.appendChild(artifactFour);
+        return card;
       });
     }
   });
@@ -63,7 +64,7 @@ const searchResults = document.getElementById('search-results');
 
 searchForm.addEventListener('submit', function(event) {
   event.preventDefault();
-  const searchTerm = searchInput.value;
+  const searchTerm = searchInput.value.trim().toLowerCase();
   searchCharacter(searchTerm);
 });
 
@@ -79,47 +80,18 @@ function searchCharacter(name) {
 }
 
 function displayCharacters(characters) {
-  searchResults.textContent = '';
-  characters.forEach(character => {
-    const characterCard = document.createElement('div');
-    characterCard.classList.add('card');
-    let h2 = document.createElement('h2');
-    h2.textContent = character.name;
-    let p = document.createElement('p');
-    p.textContent = `Rarity: ${character.rarity}`;
-    let img = document.createElement('img');
-    img.src = character.image;
-    img.classList.add("character-portrait");
-    let button = document.createElement('button');
-    button.textContent = "Build Character";
-    button.addEventListener("click", () => {
-      p.textContent = "Recommended";
-      character.recommendedArtifacts.forEach(artifact => {
-        let artifactImg = document.createElement("img");
-        artifactImg.src = artifact['artifact-image'];
-        artifactImg.alt = artifact.name;
-        artifactImg.classList.add('recommended-artifact-image');
-        characterCard.appendChild(artifactImg);
-        let artifactName = document.createElement("h3");
-        artifactName.textContent = artifact.name;
-        artifactName.classList.add('artifact-name');
-        characterCard.appendChild(artifactName);
-        let artifactDesc = document.createElement('p');
-        artifactDesc.textContent = artifact.description;
-        artifactDesc.classList.add('recommended-artifact-description');
-        characterCard.appendChild(artifactDesc);
-        let artifactFour = document.createElement('p');
-        artifactFour.textContent = artifact.fourPC;
-        artifactFour.classList.add('recommended-artifact-four');
-        characterCard.appendChild(artifactFour);
-      });  
-    });
-    button.classList.add('build-character');
-    button.id = character.id;
-    characterCard.append(h2, img, p, button);
-    searchResults.appendChild(characterCard);
+  const cardsContainer = document.getElementById('cards-container');
+  const cards = cardsContainer.querySelectorAll('.card');
+  cards.forEach(card => {
+    const characterName = card.querySelector('h2').textContent.toLowerCase();
+    if (characters.some(character => character.name.toLowerCase() === characterName)) {
+      card.classList.remove('hidden');
+    } else {
+      card.classList.add('hidden');
+    }
   });
 }
+
 
 function getArtifacts(recommendArtifacts) {
   fetch(`http://localhost:3000/artifacts/${recommendArtifacts}`)
@@ -132,7 +104,14 @@ function getArtifacts(recommendArtifacts) {
     });
 }
 function displayArtifact(artifact) {
-  searchResults.textContent = '';
+  const parentElement = searchResults;
+  const allChildElements = parentElement.children;
+
+  // Hide all the child elements (i.e. character cards)
+  for (let i = 0; i < allChildElements.length; i++) {
+    allChildElements[i].style.display = 'none';
+  }
+
   const artifactCard = document.createElement('div');
   artifactCard.classList.add('card');
   let h2 = document.createElement('h2');
@@ -142,7 +121,24 @@ function displayArtifact(artifact) {
   let img = document.createElement('img');
   img.src = artifact.image;
   img.classList.add("artifact-image");
-  artifactCard.append(h2, img, p);
-  searchResults.appendChild(artifactCard);
+  let button = document.createElement('button');
+  button.textContent = "Build Character";
+  button.addEventListener("click", () => {
+    const characterCard = document.querySelector(`.card[id='${artifact.characterId}']`);
+    const p = characterCard.querySelector('p');
+    p.textContent = "Recommended";
+    artifact.recommendedCharacters.forEach(characterId => {
+      const recommendedCharacterButton = characterCard.querySelector(`.build-character[id='${characterId}']`);
+      recommendedCharacterButton.click();
+    });
+  });
+  button.classList.add('build-character');
+  button.id = artifact.id;
+  artifactCard.append(h2, img, p, button);
+  parentElement.appendChild(artifactCard);
+
+  // Show the artifact card
+  const artifactElement = document.getElementById(artifact.id);
+  artifactElement.style.display = 'block';
 }
 

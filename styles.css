@@ -95,3 +95,6 @@ p {
 .artifact-name {
   text-align: center;
 }
+.hidden {
+  display: none;
+}

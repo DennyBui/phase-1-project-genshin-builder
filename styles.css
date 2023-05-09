@@ -106,3 +106,6 @@ p {
   height: 4rem;
   width: auto;
 }
+#title-of-page {
+  text-align: center;
+}

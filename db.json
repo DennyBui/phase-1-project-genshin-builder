@@ -130,7 +130,7 @@
             {
                 "name": "Thundering Fury",
                 "description": "2-PC: Electro DMG Bonus +15%", 
-                "fourPC": "4-PC: Increases damage caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, and the DMG Bonus conferred by Aggravate is increased by 20%. When Quicked or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s.",
+                "fourPC": "4-PC: Increases damage caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, and the DMG Bonus conferred by Aggravate is increased by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s.",
                 "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Item_Thunderbird%27s_Mercy.png/revision/latest?cb=20201120064634"
             }
         ]
@@ -189,7 +189,7 @@
     },
     {
         "id": 12,
-        "name": "Tartaglia",
+        "name": "Tartaglia (Childe)",
         "element": "Hydro",
         "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Element_Hydro.svg/revision/latest?cb=20220119211435",
         "rarity": "★★★★★",
@@ -200,6 +200,142 @@
                 "description": "2-PC: Hydro DMG Bonus +15%", 
                 "fourPC": "4-PC: After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s.",
                 "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Item_Gilded_Corsage.png/revision/latest?cb=20201225230417"
+            }
+        ]
+
+    },
+    {
+        "id": 13,
+        "name": "Barbara",
+        "element": "Hydro",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Element_Hydro.svg/revision/latest?cb=20220119211435",
+        "rarity": "★★★★",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Barbara_Icon.png/revision/latest/scale-to-width-down/250?cb=20230302072845",
+        "recommendedArtifacts": [
+            {
+                "name": "Maiden Beloved",
+                "description": "2-PC: Character Healing Effectiveness +15%", 
+                "fourPC": "4-PC: Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s.",
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/8/82/Item_Maiden%27s_Fading_Beauty.png/revision/latest?cb=20201120063505"
+            }
+        ]
+
+    },
+    {
+        "id": 14,
+        "name": "Kokomi",
+        "element": "Hydro",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Element_Hydro.svg/revision/latest?cb=20220119211435",
+        "rarity": "★★★★★",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Sangonomiya_Kokomi_Icon.png/revision/latest/scale-to-width-down/250?cb=20210921103819",
+        "recommendedArtifacts": [
+            {
+                "name": "Ocean-Hued Clam",
+                "description": "2-PC: Healing Bonus 15%", 
+                "fourPC": "4-PC: When the character with this artifact set heals a party member, 1 Foam will appear. It accumulates healed HP for 3 seconds, then explodes and deals 90% of the HP healed as DMG to nearby enemies. Max accumulated healing is 30,000 HP, including over-heal. There can only be 1 Foam active, but it stays even if you swap out. Foam CD is 3.5s.",
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Sea-Dyed_Blossom.png/revision/latest?cb=20211124071311"
+            }
+        ]
+
+    },
+    {
+        "id": 15,
+        "name": "Dehya",
+        "element": "Pyro",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/2/2c/Element_Pyro.svg/revision/latest?cb=20220119211527",
+        "rarity": "★★★★★",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Dehya_Icon.png/revision/latest/scale-to-width-down/250?cb=20230301024649",
+        "recommendedArtifacts": [
+            {
+                "name": "Vourukasha's Glow",
+                "description": "2-PC: HP +20%", 
+                "fourPC": "4-PC: Elemental Skill and Elemental Burst DMG will be increased by 10%. After the equipping character takes DMG, the aforementioned DMG Bonus is increased by 80% for 5s. This effect increase can have 5 stacks. The duration of each stack is counted independently. These effects can be triggered even when the equipping character is not on the field.",
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c5/Item_Stamen_of_Khvarena%27s_Origin.png/revision/latest?cb=20230412042053"
+            }
+        ]
+
+    },
+    {
+        "id": 16,
+        "name": "Wanderer (Scaramouche)",
+        "element": "Anemo",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Element_Anemo.svg/revision/latest?cb=20220119211128",
+        "rarity": "★★★★★",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Wanderer_Icon.png/revision/latest/scale-to-width-down/250?cb=20221207034209",
+        "recommendedArtifacts": [
+            {
+                "name": "Desert Pavilion Chronicle",
+                "description": "2-PC: Anemo DMG Bonus +15%", 
+                "fourPC": "4-PC: When Charged Attacks hit opponents, the equipping character's Normal Attack speed will increase by 10% while Normal, Charged, and Plunging Attack DMG will increase by 40% for 15s.",
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_The_First_Days_of_the_City_of_Kings.png/revision/latest?cb=20221207030405"
+            }
+        ]
+
+    },
+    {
+        "id": 17,
+        "name": "Noelle",
+        "element": "Geo",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/Noelle_Icon.png/revision/latest/scale-to-width-down/250?cb=20210214011929",
+        "rarity": "★★★★",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Albedo_Icon.png/revision/latest?cb=20210213163457",
+        "recommendedArtifacts": [
+            {
+                "name": "Retracing Bolide",
+                "description": "2-PC: Increases Shield Strength by 35%",
+                "fourPC": "4-PC: While protected by a shield, gain an additional 40% Normal and Charged Attack DMG.",
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Item_Summer_Night%27s_Bloom.png/revision/latest?cb=20201120064133"
+            }
+        ]
+
+    },
+    {
+        "id": 18,
+        "name": "Keqing",
+        "element": "Electro",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Element_Electro.svg/revision/latest?cb=20220119211156",
+        "rarity": "★★★★★",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Keqing_Icon.png/revision/latest/scale-to-width-down/250?cb=20210213162751",
+        "recommendedArtifacts": [
+            {
+                "name": "Shimenawa's Reminiscence",
+                "description": "2-PC: ATK +18%", 
+                "fourPC": "4-PC: When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration.",
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Entangling_Bloom.png/revision/latest?cb=20210721030058"
+            }
+        ]
+
+    },
+    {
+        "id": 19,
+        "name": "Eula",
+        "element": "Cryo",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Element_Cryo.svg/revision/latest?cb=20220119211508",
+        "rarity": "★★★★★",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Eula_Icon.png/revision/latest/scale-to-width-down/250?cb=20210511040616",
+        "recommendedArtifacts": [
+            {
+                "name": "Pale Flame",
+                "description": "2-PC: Physical DMG Bonus +25%", 
+                "fourPC": "4-PC: When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%.",
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e7/Item_Stainless_Bloom.png/revision/latest?cb=20210416205644"
+            }
+        ]
+
+    },
+    {
+        "id": 20,
+        "name": "Ganyu",
+        "element": "Cryo",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Element_Cryo.svg/revision/latest?cb=20220119211508",
+        "rarity": "★★★★★",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Ganyu_Icon.png/revision/latest?cb=20210213162851",
+        "recommendedArtifacts": [
+            {
+                "name": "Wanderer's Troupe",
+                "description": "2-PC: Increases Elemental Mastery by 80.", 
+                "fourPC": "4-PC: Increases Charged Attack DMG by 35% if the character uses a Catalyst or a Bow.",
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Item_Troupe%27s_Dawnlight.png/revision/latest?cb=20201120063930"
             }
         ]
 

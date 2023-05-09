@@ -32,6 +32,7 @@ function createCardElement(character) {
       let recommendedArtifacts = card.querySelectorAll('.recommended-artifact-image, .artifact-name, .recommended-artifact-description, .recommended-artifact-four');
       recommendedArtifacts.forEach(element => element.remove());
       p.textContent = `Rarity: ${character.rarity}`;
+      elementImg.style.display = "block";
     } else {
       button.classList.add('active');
       button.textContent = "Hide Artifacts";
@@ -55,6 +56,7 @@ function createCardElement(character) {
         artifactFour.classList.add('recommended-artifact-four');
         card.appendChild(artifactFour);
       });
+      elementImg.style.display = "none"
     }
   });
 
@@ -85,4 +87,18 @@ searchForm.addEventListener('submit', (event) => {
   event.preventDefault(); // prevent the default form submission behavior
   submitSearch();
 });
+const randomButton = document.getElementById('random-button');
+randomButton.addEventListener('click', displayRandomCharacter);
+function displayRandomCharacter() {
+  const cards = document.querySelectorAll('.card');
+  const randomIndex = Math.floor(Math.random() * cards.length);
+  cards.forEach((card, index) => {
+    const random = card.querySelector('h2').textContent
+    if (index === randomIndex) {
+      card.style.display = 'block';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
 

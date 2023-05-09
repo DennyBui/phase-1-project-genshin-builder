@@ -7,7 +7,7 @@ My website is a web application that displays a collection of characters from a 
 View a collection of characters with their images, name, rarity, and element.
 Click on a character's "Build Character" button to display a list of recommended artifacts to use when building that character.
 Search for characters by name using the search bar.
-Hover over element image to see what element a character is
+Hover over element image to see what element a character is.
 
 ### Technologies Used:
 - HTML
@@ -15,7 +15,7 @@ Hover over element image to see what element a character is
 - JavaScript
 
 ### How to Use:
-- First use json-server --watch db.json to grab the db.json elements
+- First use json-server --watch db.json in the terminal to grab the db.json elements
 - Open the index.html file in a web browser.
 - Scroll through the list of characters, or use the search bar to find a specific character by name.
 - Click on a character's "Build Character" button to display a list of recommended artifacts to use when building that character.
@@ -28,4 +28,4 @@ Hover over element image to see what element a character is
 - I want to add a function that will let users click on a weapon image near the bottom and it will show a character's recommended weapon
 
 ### Credits:
-This website was created by Denny Bui as a personal project. The character data was obtained from https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki and https://game8.co/games/Genshin-Impact
+This website was created by Denny Bui as a personal project. The character data was obtained from https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki and https://game8.co/games/Genshin-Impact. Thanks to https://genshin.global/character/traveler-aether-lumine/ and https://genshinimpact.wiki.fextralife.com/Traveler for the traveler image

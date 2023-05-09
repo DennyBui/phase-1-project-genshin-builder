@@ -339,6 +339,74 @@
             }
         ]
 
+    },
+    {
+        "id": 21,
+        "name": "Traveler (Electro)",
+        "element": "Electro",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Element_Electro.svg/revision/latest?cb=20220119211156",
+        "rarity": "★★★★★",
+        "image": "https://genshin.global/wp-content/uploads/2020/09/aether-lumine-traveler-twins-profile-art-genshin-impact.webp",
+        "recommendedArtifacts": [
+            {
+                "name": "Emblem of Severed Fate",
+                "description": "2-PC: Energy Recharge +20%",
+                "fourPC": "4-PC: Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way.",
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Item_Magnificent_Tsuba.png/revision/latest?cb=20210721030125"
+            }
+        ]
+
+    },
+    {
+        "id": 22,
+        "name": "Traveler (Dendro)",
+        "element": "Dendro",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Element_Dendro.svg/revision/latest?cb=20220119211226",
+        "rarity": "★★★★★",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Aether_Icon.png/revision/latest?cb=20210214011610",
+        "recommendedArtifacts": [
+            {
+                "name": "Deepwood Memories",
+                "description": "2-PC: Dendro DMG Bonus +15%",
+                "fourPC": "4-PC: After Elemental Skills or Bursts hit opponents, the targets' Dendro RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field.",
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Item_Labyrinth_Wayfarer.png/revision/latest?cb=20220826125326"
+            }
+        ]
+
+    },
+    {
+        "id": 23,
+        "name": "Traveler (Anemo)",
+        "element": "Anemo",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Element_Anemo.svg/revision/latest?cb=20220119211128",
+        "rarity": "★★★★★",
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Lumine_Icon.png/revision/latest?cb=20220210041725",
+        "recommendedArtifacts": [
+            {
+                "name": "Viridescent Venerer",
+                "description": "2-PC: Anemo DMG Bonus +15%", 
+                "fourPC": "4-PC: Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s.",
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Item_In_Remembrance_of_Viridescent_Fields.png/revision/latest?cb=20201120064508"
+            }
+        ]
+
+    },
+    {
+        "id": 24,
+        "name": "Traveler (Geo)",
+        "element": "Geo",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Element_Geo.svg/revision/latest?cb=20220119211105",
+        "rarity": "★★★★★",
+        "image": "https://genshinimpact.wiki.fextralife.com/file/Genshin-Impact/traveler-character-portrait-genshin-impact-wiki-guide-200px.png",
+        "recommendedArtifacts": [
+            {
+                "name": "Noblesse Oblige",
+                "description": "2-PC: Elemental Burst DMG +20%",
+                "fourPC": "4-PC: Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack.",
+                "artifact-image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Royal_Flora.png/revision/latest?cb=20201120063610"
+            }
+        ]
+
     }
     
 ]

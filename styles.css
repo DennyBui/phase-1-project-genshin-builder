@@ -6,6 +6,7 @@ body {
    justify-content: center;
    height: 7rem;
    padding: 1rem;
+   width: auto;
 }
 #genshin-header img {
    height: 8rem;
@@ -40,11 +41,10 @@ body {
   border-radius: 5px;
 }
 #cards-container {
-  margin: 13px;
+  margin: 15px;
 }
 .container {
   text-align: center;
-  background-color: blue;
   max-width: 1750px;
 }
 #search-input {
@@ -80,21 +80,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .recommended-artifact-four {
-  margin: 4;
+  margin: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
-header {
-  background-color: #6d4c41;
-  color: #fff;
-  padding: 20px;
-}
-
 header h1 {
   margin: 0;
 }
 p {
   text-align: center;
-  font-style: oblique;
 }
 .artifact-name {
   text-align: center;
@@ -108,4 +101,7 @@ p {
 }
 #title-of-page {
   text-align: center;
+}
+#search-form {
+  background-color: blue;
 }

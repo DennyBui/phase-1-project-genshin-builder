@@ -4,11 +4,17 @@ function createCardElement(character) {
   let h2 = document.createElement('h2');
   h2.textContent = character.name;
   let p = document.createElement('p');
-  p.textContent = `Rarity: ${character.rarity} | Element: ${character.element}`;
+  p.textContent = `Rarity: ${character.rarity}`;
   let elementImg = document.createElement('img')
   elementImg.src = character.elementImage
   card.append(elementImg)
   elementImg.classList.add('element-image')
+  elementImg.addEventListener('mouseover', () => {
+    p.textContent = `Element: ${character.element}`
+  })
+  elementImg.addEventListener('mouseout', () => {
+    p.textContent = `Rarity: ${character.rarity}`
+  })
   let img = document.createElement('img');
   img.src = character.image;
   img.classList.add("character-portrait");
@@ -25,7 +31,7 @@ function createCardElement(character) {
       button.textContent = "Build Character";
       let recommendedArtifacts = card.querySelectorAll('.recommended-artifact-image, .artifact-name, .recommended-artifact-description, .recommended-artifact-four');
       recommendedArtifacts.forEach(element => element.remove());
-      p.textContent = `Rarity: ${character.rarity} | Element: ${character.element}`;
+      p.textContent = `Rarity: ${character.rarity}`;
     } else {
       button.classList.add('active');
       button.textContent = "Hide Artifacts";

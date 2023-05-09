@@ -4,6 +4,7 @@
         "id": 1,
         "name": "Albedo",
         "element": "Geo",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Element_Geo.svg/revision/latest?cb=20220119211105",
         "rarity": "★★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Albedo_Icon.png/revision/latest?cb=20210213163457",
         "recommendedArtifacts": [
@@ -20,6 +21,7 @@
         "id": 2,
         "name": "Alhaitham",
         "element": "Dendro",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Element_Dendro.svg/revision/latest?cb=20220119211226",
         "rarity": "★★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2c/Alhaitham_Icon.png/revision/latest/scale-to-width-down/185?cb=20230118023048",
         "recommendedArtifacts": [
@@ -36,6 +38,7 @@
         "id": 3,
         "name": "Aloy",
         "element": "Cyro",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Element_Cryo.svg/revision/latest?cb=20220119211508",
         "rarity": "★★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Aloy_Icon.png/revision/latest?cb=20220210041444",
         "recommendedArtifacts": [
@@ -52,6 +55,7 @@
         "id": 4,
         "name": "Amber",
         "element": "Pyro",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/2/2c/Element_Pyro.svg/revision/latest?cb=20220119211527",
         "rarity": "★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/75/Amber_Icon.png/revision/latest?cb=20210213161233",
         "recommendedArtifacts": [
@@ -68,6 +72,7 @@
         "id": 5,
         "name": "Ayaka",
         "element": "Cryo",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Element_Cryo.svg/revision/latest?cb=20220119211508",
         "rarity": "★★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Kamisato_Ayaka_Icon.png/revision/latest?cb=20211221231648",
         "recommendedArtifacts": [
@@ -84,6 +89,7 @@
         "id": 6,
         "name": "Hu Tao",
         "element": "Pyro",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/2/2c/Element_Pyro.svg/revision/latest?cb=20220119211527",
         "rarity": "★★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Hu_Tao_Icon.png/revision/latest?cb=20210228210611",
         "recommendedArtifacts": [
@@ -100,6 +106,7 @@
         "id": 7,
         "name": "Kaveh",
         "element": "Dendro",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Element_Dendro.svg/revision/latest?cb=20220119211226",
         "rarity": "★★★★",
         "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/genshin-impact/f/fe/UI_AvatarIcon_Kaveh.png?width=325",
         "recommendedArtifacts": [
@@ -116,6 +123,7 @@
         "id": 8,
         "name": "Fischl",
         "element": "Electro",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Element_Electro.svg/revision/latest?cb=20220119211156",
         "rarity": "★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Fischl_Icon.png/revision/latest/scale-to-width-down/250?cb=20220627171007",
         "recommendedArtifacts": [
@@ -132,6 +140,7 @@
         "id": 9,
         "name": "Layla",
         "element": "Cryo",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Element_Cryo.svg/revision/latest?cb=20220119211508",
         "rarity": "★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Layla_Icon.png/revision/latest?cb=20221118140544",
         "recommendedArtifacts": [
@@ -148,6 +157,7 @@
         "id": 10,
         "name": "Sucrose",
         "element": "Anemo",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Element_Anemo.svg/revision/latest?cb=20220119211128",
         "rarity": "★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Sucrose_Icon.png/revision/latest/scale-to-width-down/250?cb=20210213163209",
         "recommendedArtifacts": [
@@ -164,6 +174,7 @@
         "id": 11,
         "name": "Ayato",
         "element": "Hydro",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Element_Hydro.svg/revision/latest?cb=20220119211435",
         "rarity": "★★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Kamisato_Ayato_Icon.png/revision/latest/scale-to-width-down/250?cb=20220601033710",
         "recommendedArtifacts": [
@@ -180,6 +191,7 @@
         "id": 12,
         "name": "Tartaglia",
         "element": "Hydro",
+        "elementImage": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Element_Hydro.svg/revision/latest?cb=20220119211435",
         "rarity": "★★★★★",
         "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Tartaglia_Icon.png/revision/latest/scale-to-width-down/250?cb=20210213163935",
         "recommendedArtifacts": [

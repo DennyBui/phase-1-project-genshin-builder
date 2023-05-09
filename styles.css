@@ -1,5 +1,5 @@
 body {
-  background-color: blue;
+  background-color: gold;
 }
 #genshin-header {
    display: flex;
@@ -8,7 +8,7 @@ body {
    padding: 1rem;
 }
 #genshin-header img {
-   height: 6rem;
+   height: 8rem;
    width: auto;
    padding: auto;
 }
@@ -24,11 +24,12 @@ body {
   border: 1px solid black;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  padding: 10px;
+  padding: 25px;
   margin: 10px;
   width: 300px;
   display: inline-block;
   vertical-align: top;
+  position: relative;
 }
 .card h2 {
   margin-top: 0;
@@ -38,10 +39,13 @@ body {
   height: auto;
   border-radius: 5px;
 }
+#cards-container {
+  margin: 13px;
+}
 .container {
   text-align: center;
-  background-color: aquamarine;
-  max-width: 1700px;
+  background-color: blue;
+  max-width: 1750px;
 }
 #search-input {
   margin: 20px;
@@ -95,6 +99,10 @@ p {
 .artifact-name {
   text-align: center;
 }
-.hidden {
-  display: none
+.card .element-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4rem;
+  width: auto;
 }

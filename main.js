@@ -4,7 +4,11 @@ function createCardElement(character) {
   let h2 = document.createElement('h2');
   h2.textContent = character.name;
   let p = document.createElement('p');
-  p.textContent = `Rarity: ${character.rarity}`;
+  p.textContent = `Rarity: ${character.rarity} | Element: ${character.element}`;
+  let elementImg = document.createElement('img')
+  elementImg.src = character.elementImage
+  card.append(elementImg)
+  elementImg.classList.add('element-image')
   let img = document.createElement('img');
   img.src = character.image;
   img.classList.add("character-portrait");
@@ -21,7 +25,7 @@ function createCardElement(character) {
       button.textContent = "Build Character";
       let recommendedArtifacts = card.querySelectorAll('.recommended-artifact-image, .artifact-name, .recommended-artifact-description, .recommended-artifact-four');
       recommendedArtifacts.forEach(element => element.remove());
-      p.textContent = `Rarity: ${character.rarity}`;
+      p.textContent = `Rarity: ${character.rarity} | Element: ${character.element}`;
     } else {
       button.classList.add('active');
       button.textContent = "Hide Artifacts";
@@ -44,7 +48,6 @@ function createCardElement(character) {
         artifactFour.textContent = artifact.fourPC;
         artifactFour.classList.add('recommended-artifact-four');
         card.appendChild(artifactFour);
-        return card;
       });
     }
   });
@@ -61,7 +64,7 @@ fetch('http://localhost:3000/characters')
     function submitSearch() {
       const input = document.getElementById('search-input').value;
       const cards = document.querySelectorAll('.card');
-    
+    //searches character by name and will display only that character
       cards.forEach(card => {
         const name = card.querySelector('h2').textContent;
         if (name.toLowerCase().includes(input.toLowerCase())) {

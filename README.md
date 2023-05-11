@@ -27,6 +27,15 @@ Hover over element image to see what element a character is.
 - I want to be able to have a button that randomly selects a character for the user
 - I want to add a function that will let users click on a weapon image near the bottom and it will show a character's recommended weapon
 
+## Installation: 
+Use the package manager pip to install foobar.
+
+## Contributor's Guide:
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
 ### Credits:
 This website was created by Denny Bui as a personal project. The character data was obtained from https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki and https://game8.co/games/Genshin-Impact. Thanks to https://genshin.global/character/traveler-aether-lumine/ and https://genshinimpact.wiki.fextralife.com/Traveler for the traveler image
 

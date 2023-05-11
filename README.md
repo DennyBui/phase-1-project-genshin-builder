@@ -29,3 +29,6 @@ Hover over element image to see what element a character is.
 
 ### Credits:
 This website was created by Denny Bui as a personal project. The character data was obtained from https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki and https://game8.co/games/Genshin-Impact. Thanks to https://genshin.global/character/traveler-aether-lumine/ and https://genshinimpact.wiki.fextralife.com/Traveler for the traveler image
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/) 

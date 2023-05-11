@@ -2,7 +2,7 @@
 ## Website to build genshin characters. 
 
 ## My Gif:
-![GIF](Markdown/Genshin-project-walkthrough.gif)
+![GIF](Genshin-project-walkthrough.gif)
 
 My website is a web application that displays a collection of characters from a popular video game. The website allows users to view details about each character, including their name, rarity, element, and recommended artifacts to use when building that character.
 
